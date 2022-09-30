@@ -1,9 +1,10 @@
+import HelloWorld from "./components/TituloPrincipal";
 
 function App() {
   return (
-    <div>
-      <h1>Titulo Principal</h1>
-    </div>
+    <>
+      <HelloWorld friend = "my friend"/>
+    </>
   );
 }
 
